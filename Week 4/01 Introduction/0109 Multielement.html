@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Java Script Introduction</title>
+
+    <style>
+        .MakeRed{
+            color: red;
+        }
+
+        .Hide{
+            visibility: hidden;
+        }
+
+        .Show{
+            visibility: visible;
+        }
+    </style>
+
+    <script>
+        function ChangeAll(str){
+            document.getElementById("cLine1").innerHTML = str;
+            document.getElementById("cLine2").innerHTML = str;
+            document.getElementById("cLine1").className = "MakeRed";
+            document.getElementById("cLine2").className = "MakeRed";
+        }
+    </script>
+</head>
+
+<body>
+
+    <p id="cLine1">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+    <br>
+    <p id="cLine2">Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet ultrices iaculis.</p>
+    <br>
+    <button type="button" onclick='ChangeAll("Hello Hai")'>Change All</button>
+    
+</body>
+
+</html>
