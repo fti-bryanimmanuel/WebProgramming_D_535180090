@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+
+    <title>Olahraga News</title>
+
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .feather {
+            width: 16px;
+            height: 16px;
+            vertical-align: text-bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+                <img src="img/sports.png" width="30" height="30" class="d-inline-block align-top"
+                alt="" loading="lazy">
+                Temu Olah Raga
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i data-feather="home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i data-feather="clipboard"></i>
+                        News <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">
+                            <i data-feather="refresh-cw"></i>
+                            Transfers
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i data-feather="activity"></i>
+                            Injuries
+                        </a>
+                        <a class="dropdown-item" href="#">
+                            <i data-feather="bar-chart-2"></i>
+                            Scoreboard
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">
+                            <i data-feather="package"></i>
+                            View all News
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i data-feather="film"></i>
+                        Highlights
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>
+                    Search
+                </button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="mt-4 mb-4">Temu Olah Raga</h1>
+        <!-- rencana mau ditaroin warna khusus buat background judul disini -->
+        
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">News</a></li>
+                <li class="breadcrumb-item active" aria-current="page">View all News</li>
+            </ol>
+        </nav>
+
+    <div class="mt-4">
+        <h2>Top News Today!</h2>
+        <div class="row mb-4">
+            <div class="col-sm mx-3 px-5 py-3 border rounded">
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="text-primary font-weight-bold">The LA Lakers are 2020 NBA Champions!</p>
+                    </div>
+                    <div class="col-sm text-right">
+                        <img src="img/lakers.jpg" width="85" height="85">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mx-3 px-5 py-3 border rounded">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <p class="text-primary font-weight-bold">Hamilton equals Schumacher's 91 win record.</p>
+                    </div>
+                    <div class="col-sm text-right">
+                        <img src="img/lewis.jpg" width="85" height="85">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mx-3 px-5 py-3 border rounded">
+                <div class="row">
+                    <div class="col-sm">
+                        <p class="text-primary font-weight-bold">Ronaldo tests positive for COVID-19.</p>
+                    </div>
+                    <div class="col-sm text-right">
+                        <img src="img/ronaldo.jpg" width="100" height="84">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="row mb-4">
+            <div class="col-sm mx-3 border rounded">
+                <h4 class="my-2">Scoreboard</h4>
+                <hr>
+                <div class="container">
+                    <h6>Premier League</h6>
+                    <div class="row">
+                      <div class="col mx-3 my-1">
+                        Chelsea 4 - Crystal Palace 0
+                      </div>
+                      <div class="col mx-3 my-1">
+                        Aston Villa 7 - 2 Liverpool
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col mx-3 my-1">
+                      Man United 2 - 7 Tottenham
+                    </div>
+                    <div class="col mx-3 my-1">
+                      Leeds United 1 - 1 Man City
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jangan dihiraukan yang ini, sisa dari contoh pa manatap-->
+        <div class="row mb-4">
+            <div class="col-sm mx-3">
+                <h4 class="my-2">Customers</h4>
+                <table data-toggle="table" class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th data-sortable="true">No</th>
+                            <th data-sortable="true">Full Name</th>
+                            <th data-sortable="true">Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John Doe</td>
+                            <td>john.doe@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jane Doe</td>
+                            <td>jane.doe@gmail.com</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>feather.replace()</script>
+</body>
+
+</html>
