@@ -1,0 +1,48 @@
+.body {
+    background-color: white;
+}
+.feather{
+    width: 30px;
+    height: 30px;
+    color: lightblue;
+    vertical-align: text-bottom;
+    margin: auto;
+}
+#background .navbar{
+    background-color: #102128;
+}
+
+#basket{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+#basket .col-md-6{
+    padding: 20px 10px;
+}
+#basket .h3{
+    margin: 20px auto;
+}
+
+
+#about{
+    background-color: #102128;
+    margin-top: 79px;
+    color: white;
+}
+#about .container{
+    width: 100%;
+    padding: 55px;
+}
+#about .container .footer .col-lg-6 .col-md-6 .col-sm-12 .col-xs-12{
+    font-family: petitamedium;
+    color: #eee;
+}
+.input-group .input-group-lg{
+    margin-top: 23px;
+}
+#icon{
+    color: white;
+    font-size: 37px;
+    margin-top: 20px;
+    position: static;
+}
